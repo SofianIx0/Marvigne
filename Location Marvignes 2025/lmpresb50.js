@@ -1,0 +1,2 @@
+//Copyright LMSOFT 1999-2000-2001-2002
+function EffetTryCatch(object,time){try{object.TagObject.filters[0].Apply();object.TagObject.Show();object.TagObject.drawingeffect=1;object.TagObject.filters[0].Play();setTimeout("SetDrawingEffect("+object.id+",2)",time);}catch(e){object.Effect=LMEffectShow;object.Effect();}}

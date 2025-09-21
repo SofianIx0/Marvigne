@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>Itinéraire</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="imagetoolbar" content="no">
+<meta http-equiv="imagetoolbar" content="false">
+<meta name="description" content="Marvignes : Villa de 100 m² à louer (4 kms des Vans).">
+<meta name="keywords" content="location,villa,Marvignes,à louer,Les Vans">
+</head>
+
+<script src="../lmpres50.js"></script>
+<script src="../lmpresb50.js" language="javascript1.3"></script>
+<script>
+//Presenter 50
+
+if(is.major>=5) parent.document.title=document.title;
+var LMObjects = new Array();
+var pub_home = "./indexpag.html"
+var objindex=0;
+var Stretch=2;
+var Position=5;
+var ScaleW=1.000000;
+var ScaleH=1.000000;
+var fontbase=96.;
+function currentviewonly(){return false;}
+//---------------------------------------------------------------------------------------------
+if(isValideBrowser()) {
+if(is.ie) document.writeln("<body onresize=PosPage(Stretch,Position,ScaleW,ScaleH); bgcolor=\"#000000\" >");
+else document.writeln("<body onload=\"LMObjectAnimate(Stretch,Position,ScaleW,ScaleH)\" bgcolor=\"#000000\" >");
+InitResources();
+//---------------------------------------------------------------------------------------------
+LMObjects[objindex++] = LMPage("Page",0,0,640,480,null,new LMBranch("0",""),null,"#000000","../lmimginv.gif");
+LMObjects[objindex++] = LMImage("Img1",10,20,620,389,1,0,null,0,null,new LMBranch("0",""),null,null,"../carte_acces.jpg");
+LMObjects[objindex++] = LMButton("But2",560,420,59,29,1,0,null,0,null,new LMBranch("0","./indexpag.html"),new LMBranch("1",""),null,null,0,0,"../buttons/butup1.gif","../buttons/butdn0.gif",null);
+}
+//---------------------------------------------------------------------------------------------
+</script>
+<script>
+if(is.ie) {
+   document.onload = LMObjectAnimate(Stretch,Position,ScaleW,ScaleH);
+   PosPage(Stretch,Position,ScaleW,ScaleH);
+}
+</script>
+
+</body>
+</html>

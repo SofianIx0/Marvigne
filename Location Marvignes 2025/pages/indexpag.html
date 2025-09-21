@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>index</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="imagetoolbar" content="no">
+<meta http-equiv="imagetoolbar" content="false">
+<meta name="description" content="Marvignes : Villa de 100 m² à louer (4 kms des Vans).">
+<meta name="keywords" content="location,villa,Marvignes,à louer,Les Vans">
+</head>
+
+<script src="../lmpres50.js"></script>
+<script src="../lmpresb50.js" language="javascript1.3"></script>
+<script>
+//Presenter 50
+
+if(is.major>=5) parent.document.title=document.title;
+var LMObjects = new Array();
+var pub_home = "./indexpag.html"
+var objindex=0;
+var Stretch=2;
+var Position=5;
+var ScaleW=1.000000;
+var ScaleH=1.000000;
+var fontbase=96.;
+function currentviewonly(){return false;}
+//---------------------------------------------------------------------------------------------
+if(isValideBrowser()) {
+if(is.ie) document.writeln("<body onresize=PosPage(Stretch,Position,ScaleW,ScaleH); bgcolor=\"#000000\" >");
+else document.writeln("<body onload=\"LMObjectAnimate(Stretch,Position,ScaleW,ScaleH)\" bgcolor=\"#000000\" >");
+InitResources();
+//---------------------------------------------------------------------------------------------
+LMObjects[objindex++] = LMPage("Page",0,0,640,480,null,new LMBranch("0",""),null,"#000000","../lmimginv.gif");
+branchlist = new Array();
+LMObjects[objindex++] = LMText("Txt2",0,390,110,68,1,0,null,0,null,branchlist,null,null,false,"#ffffff",0,0,0,0,0,"<font face=\"Times New Roman\"><font style=\"font-size:16pt\"><DIV align=center><font style=\"font-size:14pt\"><font color=\"#ffffff\"><B>Plans<BR>de la villa</B></font></font></font></font></DIV>");
+LMObjects[objindex++] = LMImage("Img1",10,16,450,297,1,0,null,0,null,new LMBranch("0",""),null,null,"../images/maison_vue_route0.jpg");
+LMObjects[objindex++] = LMImage("Img5",480,10,149,149,1,0,null,0,null,new LMBranch("0",""),null,null,"../images/bouton_contact0.jpg");
+LMObjects[objindex++] = LMImage("Img4",330,334,124,52,1,0,null,0,null,new LMBranch("0","./itinerairepag.html"),null,null,"../images/bouton_viamichelin0.jpg");
+LMObjects[objindex++] = LMImage("Img3",185,330,61,61,1,0,null,0,null,new LMBranch("0","./carte_environspag.html"),null,null,"../images/bouton_acces0.jpg");
+LMObjects[objindex++] = LMImage("Img2",25,330,55,60,1,0,null,0,null,new LMBranch("0","./plans_villapag.html"),null,null,"../images/bouton_plan0.jpg");
+branchlist = new Array();
+LMObjects[objindex++] = LMText("Txt1",20,20,159,105,1,0,null,0,null,branchlist,null,null,false,"#ffffff",0,0,0,0,0,"<font face=\"Times New Roman\"><font style=\"font-size:16pt\"><font style=\"font-size:18pt\"><font color=\"#004000\"><B>MARVIGNES</B></font></font><font style=\"font-size:12pt\"><BR></font>Villa&nbsp;à louer<BR><font style=\"font-size:12pt\"><B>700 €/mois</B></font></font></font>");
+LMObjects[objindex++] = LMButton("But1",490,20,130,128,1,0,null,0,null,new LMBranch("0","./contactspag.html"),new LMBranch("1",""),null,null,0,0,"../buttons/butup0.gif",null,null);
+branchlist = new Array();
+LMObjects[objindex++] = LMText("Txt3",160,390,110,68,1,0,null,0,null,branchlist,null,null,false,"#ffffff",0,0,0,0,0,"<font face=\"Times New Roman\"><font style=\"font-size:16pt\"><DIV align=center><font style=\"font-size:14pt\"><font color=\"#80ff80\"><B>Découvrir<BR>les environs</B></font></font></font></font></DIV>");
+branchlist = new Array();
+LMObjects[objindex++] = LMText("Txt4",320,390,150,49,1,0,null,0,null,branchlist,null,null,false,"#ffffff",0,0,0,0,0,"<font face=\"Times New Roman\"><font style=\"font-size:16pt\"><DIV align=center><font style=\"font-size:14pt\"><font color=\"#ffff80\"><B>Itinéraire<BR>depuis les Vans</B></font></font></font></font></DIV>");
+branchlist = new Array();
+LMObjects[objindex++] = LMText("Txt5",490,120,140,31,1,0,null,0,null,branchlist,null,null,false,"#ffffff",0,0,0,0,0,"<font face=\"Times New Roman\"><font style=\"font-size:16pt\"><font style=\"font-size:14pt\"><B><I>Nous contacter...</I></B></font></font></font>");
+}
+//---------------------------------------------------------------------------------------------
+</script>
+<script>
+if(is.ie) {
+   document.onload = LMObjectAnimate(Stretch,Position,ScaleW,ScaleH);
+   PosPage(Stretch,Position,ScaleW,ScaleH);
+}
+</script>
+
+</body>
+</html>

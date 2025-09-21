@@ -1,0 +1,54 @@
+<html>
+<head>
+<title>Contacts</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta http-equiv="imagetoolbar" content="no">
+<meta http-equiv="imagetoolbar" content="false">
+<meta name="description" content="Marvignes : Villa de 100 m² à louer (4 kms des Vans).">
+<meta name="keywords" content="location,villa,Marvignes,à louer,Les Vans">
+</head>
+
+<script src="../lmpres50.js"></script>
+<script src="../lmpresb50.js" language="javascript1.3"></script>
+<script>
+//Presenter 50
+
+if(is.major>=5) parent.document.title=document.title;
+var LMObjects = new Array();
+var pub_home = "./indexpag.html"
+var objindex=0;
+var Stretch=2;
+var Position=5;
+var ScaleW=1.000000;
+var ScaleH=1.000000;
+var fontbase=96.;
+function currentviewonly(){return false;}
+//---------------------------------------------------------------------------------------------
+if(isValideBrowser()) {
+if(is.ie) document.writeln("<body onresize=PosPage(Stretch,Position,ScaleW,ScaleH); bgcolor=\"#000000\" >");
+else document.writeln("<body onload=\"LMObjectAnimate(Stretch,Position,ScaleW,ScaleH)\" bgcolor=\"#000000\" >");
+InitResources();
+//---------------------------------------------------------------------------------------------
+LMObjects[objindex++] = LMPage("Page",0,0,640,480,null,new LMBranch("0",""),null,"#000000","../lmimginv.gif");
+LMObjects[objindex++] = LMImage("Img1",10,33,620,413,1,0,null,0,null,new LMBranch("0",""),null,null,"../images/pagecontact0.jpg");
+branchlist = new Array();
+LMObjects[objindex++] = LMText("Txt1",140,50,239,75,1,0,null,0,null,branchlist,null,null,false,"#ffffff",0,0,0,0,0,"<font face=\"Times New Roman\"><font style=\"font-size:16pt\"><font style=\"font-size:14pt\"><B><I>Alain et Khadija de BAST<BR></I></B></font><font style=\"font-size:12pt\"><B><I>&nbsp;&nbsp;&nbsp;  15 allée Clos des Poiriers<BR>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  26600 PONT de l’ISERE</I></B></font></font></font>");
+branchlist = new Array();
+LMObjects[objindex++] = LMText("Txt2",180,170,310,75,1,0,null,0,null,branchlist,null,null,false,"#ffffff",0,0,0,0,0,"<font face=\"Times New Roman\"><font style=\"font-size:16pt\"><font style=\"font-size:12pt\"><B><I>Téléphone</I></B></font><font style=\"font-size:14pt\"><B><I> </I></B></font><font style=\"font-size:12pt\"><I>:</I></font><font style=\"font-size:14pt\"><B><I> 04 75 80 22 57<BR></I></B></font><font style=\"font-size:14pt\"><I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;</I></font><font style=\"font-size:12pt\"><B><I>Portable</I></B></font><font style=\"font-size:14pt\"><B><I>  </I></B></font><font style=\"font-size:12pt\"><I>:</I></font><font style=\"font-size:14pt\"><B><I> 06 72 87 15 01</I></B></font></font></font>");
+branchlist = new Array();
+branchlist[0] = new LMBranch("1","mailto:debast.alain@neuf.fr");
+branchlist[1] = new LMBranch("2","mailto:debast.khadija@neuf.fr");
+LMObjects[objindex++] = LMText("Txt3",190,300,390,75,1,0,null,0,null,branchlist,null,null,false,"#ffffff",0,0,0,0,0,"<font face=\"Times New Roman\"><font style=\"font-size:16pt\"><font style=\"font-size:12pt\"><B><I>Email Alain </I></B></font><font style=\"font-size:14pt\"><B><I> </I></B></font><font style=\"font-size:12pt\"><I>:</I></font><font style=\"font-size:14pt\"><B><I> </I></B></font><font style=\"font-size:14pt\"><font color=\"#0000ff\"><B><I><A STYLE=\"cursor=hand\" onmousedown=IELMTextBrDown(\"Txt3\",1) onmouseup=IELMTextBrUp(\"Txt3\",1) onmouseover=IELMTextBrOver(\"Txt3\",1) onmouseout=IELMTextBrOut(\"Txt3\",1)><font color=\"#0000ff\">debast.alain@neuf.fr</font></A></I></B></font></font><font style=\"font-size:14pt\"><B><I><BR></I></B></font><font style=\"font-size:14pt\"><I>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </I></font><font style=\"font-size:12pt\"><B><I>Email Khadija</I></B></font><font style=\"font-size:14pt\"><I>&nbsp;: </I></font><font style=\"font-size:14pt\"><font color=\"#0000ff\"><B><I><A STYLE=\"cursor=hand\" onmousedown=IELMTextBrDown(\"Txt3\",2) onmouseup=IELMTextBrUp(\"Txt3\",2) onmouseover=IELMTextBrOver(\"Txt3\",2) onmouseout=IELMTextBrOut(\"Txt3\",2)><font color=\"#0000ff\">debast.khadija@neuf.fr</font></A></I></B></font></font><font style=\"font-size:14pt\"><font color=\"#0000ff\"><B><I> </I></B></font></font></font></font>");
+LMObjects[objindex++] = LMButton("But2",560,410,59,29,1,0,null,0,null,new LMBranch("0","./indexpag.html"),new LMBranch("1",""),null,null,0,0,"../buttons/butup1.gif","../buttons/butdn1.gif",null);
+}
+//---------------------------------------------------------------------------------------------
+</script>
+<script>
+if(is.ie) {
+   document.onload = LMObjectAnimate(Stretch,Position,ScaleW,ScaleH);
+   PosPage(Stretch,Position,ScaleW,ScaleH);
+}
+</script>
+
+</body>
+</html>
